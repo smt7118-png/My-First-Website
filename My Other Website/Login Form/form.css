@@ -1,0 +1,182 @@
+/* 
+.body{
+    height: 500px;
+}
+
+.div-h1{
+    text-align: center;
+    padding: 2%;
+    margin: 2%
+}
+
+.h1{
+    margin: 2% auto;
+    border: 2px dashed rgb(101, 206, 255);
+    border-radius: 10px;
+    display: inline;
+    padding: 2%;
+    background-color: blue;
+    color: honeydew;
+}
+
+.div-center{
+    background-color: gainsboro;
+    margin: 0 27%;
+    padding: 0.5%;
+    border: 1px solid gainsboro;
+    border-radius: 35px;
+    height: auto;
+}
+
+.div-form{
+    padding: 2% 5%;
+    text-align: center;
+    margin: 0 auto;
+    width: 90%;
+    height: 100%;
+}
+
+.div-input{
+    margin: 0.5% auto;
+    padding: 0.2%;
+    height: 100%;
+}
+
+.div-lable{
+    display: block;
+    margin-bottom: 1%;
+}
+
+.input{
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 80%;
+    width: 100%;
+    height: 4vh;
+}
+
+.input:active{
+    background-color: black;
+}
+
+.button-form{
+    background-color: gray;
+    color: white;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 0.7%;
+    margin: 1% auto;
+    font-size: 90%;
+}
+
+.Login{
+    padding: 2%;
+}
+
+.Login:hover{
+    box-shadow: -2px 1px 4px 2px aqua;
+    border: 1px dashed aqua;
+    transition: 0.3s;
+}
+
+.reset{
+    padding: 1%;
+}
+
+.reset:hover{
+    box-shadow: 2px 1px 4px 2px aqua;
+    border: 1px dashed aqua;
+    transition: 0.3s;
+}
+
+.button-form:hover{
+    background-color: aqua;
+    color: black;
+    transition: 0.5s;
+    box-shadow: 0px 1px 4px 2px blue;
+} */
+
+.div-form{
+    margin: 0 auto;
+    height: auto;
+    width: 90vw;
+    font-size: 20px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.form{
+    width: 50%;
+    height: 50%;
+    margin: 0 auto;
+    padding: 1%;
+}
+
+.div-inside-form{
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 5%;
+}
+
+.label{
+    font-size: 2.5vmax;
+    display: block;
+}
+
+.input{
+    margin: 4% 0.5% 6% 0.5%;
+    padding: 1%;
+    font-size: 100%;
+    border: 1px solid black;
+    border-radius: 10px;
+    transition: all ease 0.7s;
+}
+
+.input:active{
+    background-color: rgb(240, 240, 240);
+    
+}
+
+.input:focus{
+    border: 1px solid black;
+    background-color: rgb(245, 245, 245);
+    box-shadow: 3px 20px 10px 1px black;
+    transform: translateY(-6px) scaleX(1.02);
+    width: 30vw;
+}
+
+.input-name{
+    width: 30vw;
+    height: 3vh;
+    
+    /* visibility: hidden;
+    opacity: 0; */
+}
+
+
+
+.input-number{
+    width: 30vw;
+    height: 3vh;
+}
+
+.input-email{
+    width: 30vw;
+    height: 3vh;
+}
+
+.input-password{
+    width: 30vw;
+    height: 3vh;
+}
+
+/* .input-name:has(.input-email:focus){
+    visibility: visible;
+    opacity: 1;
+} */
+
+/* .div-inside-form:has(.lable:focus) .input-name{
+    visibility: visible;
+    opacity: 1;
+} */
